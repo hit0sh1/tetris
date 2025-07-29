@@ -83,11 +83,23 @@ java EnhancedTetris
 
 ```
 tetris/
-├── Tetris.java          # 基本版のソースコード
-├── EnhancedTetris.java  # 拡張版のソースコード
+├── Tetris.java          # 基本版のソースコード（Java）
+├── EnhancedTetris.java  # 拡張版のソースコード（Java）
+├── index.html           # Web版のHTMLファイル
+├── tetris.js            # Web版のJavaScriptファイル
 ├── README.md            # このファイル
 └── CLAUDE.md            # 開発者向けドキュメント
 ```
+
+## Web版について
+
+Web版はブラウザで動作するバージョンです。`index.html`をブラウザで開くだけでプレイできます。
+
+### Web版の特徴
+- レスポンシブデザイン（PC・スマートフォン対応）
+- タッチ操作対応
+- ローカルストレージでハイスコア保存
+- モダンなUI/UXデザイン
 
 ## 技術仕様
 
